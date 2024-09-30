@@ -19,7 +19,6 @@ This is a continuously evolving E-Commerce Platform built using Java and Spring 
 - **Backend**: Java, Spring Boot (Spring Web, Spring Data JPA, Spring Security)
 - **Database**: MySQL
 - **Validation**: Spring Validator for data integrity and user input validation
-- **Frontend**: Thymeleaf, HTML5, CSS3, Bootstrap (optional)
 - **Build Tool**: Maven
 - **Version Control**: Git
 
