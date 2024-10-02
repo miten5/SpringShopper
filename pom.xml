@@ -11,8 +11,8 @@
 	<groupId>com.learning</groupId>
 	<artifactId>SpringShopper</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>shopping-cart</name>
-	<description>A simple ecommers app</description>
+	<name>SpringShopper</name>
+	<description>A simple e-commerce app</description>
 	<url/>
 	<licenses>
 		<license/>
