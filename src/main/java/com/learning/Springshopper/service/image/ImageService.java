@@ -71,6 +71,11 @@ public class ImageService implements IImageService {
     }
 
     @Override
+    public List<ImageDto> saveImages(List<MultipartFile> file, Long productId) {
+        return List.of();
+    }
+
+    @Override
     public void updateImage(MultipartFile file, Long imageId) {
         Image image = getImageById(imageId);
 
