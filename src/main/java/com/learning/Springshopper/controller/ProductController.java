@@ -69,7 +69,7 @@ public class ProductController {
     }
 
     @GetMapping("/by/brand-and-name")
-    public ResponseEntity<ApiResponse> getProductByBrandAndName(@PathVariable String brandName, @PathVariable String productName) {
+    public ResponseEntity<ApiResponse> getProductByBrandAndName(@RequestParam String brandName, @RequestParam String productName) {
         try {
             List<Product> products = productService.getProductsByBrandAndName(brandName, productName);
 
